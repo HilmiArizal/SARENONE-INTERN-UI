@@ -1,0 +1,17 @@
+thead tr th{
+    font-weight: bold;
+    background-color: rgb(139, 139, 139);
+    text-transform: capitalize;
+    font-size: 100%;
+}
+
+tbody tr td{
+    font-size: 80%;
+    font-weight: 500;
+    cursor: default;
+}
+
+.icon-input{
+    float: right;
+    margin-top: -23px;
+}

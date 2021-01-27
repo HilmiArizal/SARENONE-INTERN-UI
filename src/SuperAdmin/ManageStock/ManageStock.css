@@ -1,0 +1,55 @@
+.btn-stock-delete {
+    background-color: rgb(226, 52, 67);
+    padding-left: 5%;
+    padding-right: 5%;
+    cursor: pointer;
+    border-radius: 3px;
+    color: #ffffff;
+}
+
+.btn-stock-edit {
+    background-color: rgb(52, 122, 226);
+    padding-left: 5%;
+    padding-right: 5%;
+    cursor: pointer;
+    border-radius: 3px;
+    color: #ffffff;
+}
+
+.btn-add-stock {
+    background-color: rgb(139, 139, 139);
+    padding: 5px;
+    font-size: 170%;
+    text-align: center;
+    cursor: pointer;
+    border-radius:100%;
+    width: 5%;
+}
+
+.form-add-stock label{
+    font-weight: bold;
+    margin-top: 2%;
+}
+
+.btn-stock-cancel {
+    background-color: rgb(43, 180, 95);
+    padding-left: 5%;
+    padding-right: 5%;
+    cursor: pointer;
+    border-radius: 3px;
+    color: #ffffff;
+}
+
+.btn-stock-confirm {
+    background-color: rgb(52, 122, 226);
+    padding-left: 5%;
+    padding-right: 5%;
+    cursor: pointer;
+    border-radius: 3px;
+    color: #ffffff;
+}
+
+.error-input{
+    color: red;
+    font-weight: bold;
+}

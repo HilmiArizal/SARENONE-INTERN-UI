@@ -1,0 +1,99 @@
+#bg-navbar {
+    background-color: rgb(80, 151, 108);
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+#brand {
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.item {
+    transition: 0.5s;
+    margin-left: 5px;
+}
+
+.item:hover {
+    background-color: white;
+}
+
+#font-item {
+    color: #ffffff;
+    cursor: pointer;
+}
+
+#font-item:hover {
+    color: black;
+}
+
+.show-hover:hover>.dropdown-menu {
+    display: block;
+}
+
+#dropdown-username {
+    text-transform: capitalize;
+}
+
+.Akun-Img {
+    width: 40%;
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+}
+
+.Akun-PrevImg {
+    width: 40%;
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+    .Akun-Img {
+        width: 40%;
+        height: 150px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 100%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .Akun-PrevImg {
+        width: 40%;
+        height: 150px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 100%;
+    }
+    .navbar-nav{
+        margin: auto;
+    }
+}
+
+.Akun-Img-Nav {
+    width: 50%;
+    height: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+}
+
+@media only screen and (max-width: 600px) {
+    .Akun-Img-Nav {
+        width: 50%;
+        height: 150px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 100%;
+    }
+}
